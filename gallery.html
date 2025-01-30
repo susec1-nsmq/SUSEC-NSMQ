@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="gallery.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <title>GALLERY | SUSEC NSMQ</title>
+    </head>
+    <body>
+        <section id="gallery-heading">
+            <div id="heading">
+                <p id="span-p"><span></span>SUSEC NSMQ</p>
+                <h1>THE QUIZ TEAM LEGACY: EXCELLENCE IN ACTION</h1>
+                <h2>OUR GALLERY</h2>
+            </div>
+
+            <div id="sidenav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="gallery.html">TEAM GALLERY</a></li>
+                        <li><a href="alumni.html">ALUMNI</a></li>
+                        <li><a href="#">EVENTS</a></li>
+                        <li><a href="#footer-section">CONTACT</a></li>
+                    </ul>
+                </nav>
+        
+            </div>
+            <div id="menuBtn">
+                <img src="menu.webp" id="menu">
+            </div>
+            <script>
+                var menuBtn = document.getElementById("menuBtn")
+                var sidenav = document.getElementById("sidenav")
+                var menu = document.getElementById("menu")
+           
+                sidenav.style.right = "-250px"
+           
+                menuBtn.onclick = function(){
+                   if(sidenav.style.right == "-250px"){
+                       sidenav.style.right = "0";
+                       menu.src = "exit.webp"
+                   }
+                   else{
+                       sidenav.style.right = "-250px";
+                       menu.src = "menu.webp"
+                   }
+                }
+               </script>
+
+        </section>
+        <section id="gallery-pics">
+            <div id="pics">
+                <img src="three.jpg">
+                <img src="image2.jpg">
+                <img src="image3.jpg">
+                <img src="image4.jpg">
+                <img src="image5.jpg">
+                <img src="image6.jpg">
+                <img src="image7.jpg">
+                <img src="image8.jpg">
+                <img src="image9.jpg">
+                <img src="image10.jpg">
+                <img src="image11.jpg">
+                <img src="image12.jpg">
+                <img src="blacko.jpeg">
+                <img src="cseth.jpeg">
+                <img src="frank.jpeg">
+                <img src="jubi.jpg">
+                <img src="image13.jfif">
+                <img src="image14.jfif">
+                <img src="image15.jfif">
+                <img src="image16.jfif">
+                <img src="image17.jfif">
+                <img src="image18.jfif">
+                <img src="image19.jfif">
+                <img src="image20.jfif">
+                <img src="image21 (2).jfif">
+                <img src="image22.jfif">
+            </div>
+
+        </section>
+        <section id="footer-section">
+            <img src="sunyani-senior-high.png" class="footer-img">
+            <img src="sunyani-senior-high.png" class="footer-img2">
+            <p id="span-p"><span></span>SUSEC NSMQ</p>
+            <div id="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <a href="https://x.com/search?q=from%3ANSMQGhana%20%20Sunyani%20shs&src=typed_query"><i class="fa-brands fa-twitter"></i></a>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <p class="link"><a href="#">click here to see more photos</a></p>
+            <p id="copyright">Copyright | FahimWeb Solutions</p>
+        </section>
+    </body>
+</html>
