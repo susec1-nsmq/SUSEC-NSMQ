@@ -13,6 +13,9 @@
     <title>SUSEC NSMQ | TRIBUTE PAGE</title>
 </head>
 <body>
+
+<div id="preloader"></div>
+
     <section id="banner">
         <img src="sunyani-senior-high.png" class="logo">
         <div class="banner-text">
@@ -22,6 +25,7 @@
         <a href="#footer"><span></span>Say hello</a>
         <a href="#features"><span></span>Explore</a>
        </div>
+    
     </div>
     </section>
     <div id="sidenav">
@@ -116,9 +120,11 @@
                <img src="image5.jpg"> 
                <div class="overlay"></div>
                <div class="service-desc">
-                <h3>Our Commitment to Team Support</h3>
+                <h3> Team Support</h3>
                 <hr>
-                <p>At SUSEC NSMQ, we believe that our strength lies in our unity. That's why we're dedicated to providing top-notch support to our team members. From guidance and mentorship to resources and encouragement, we're committed to helping our team members grow and succeed.
+                <p>At SUSEC NSMQ, we believe that our strength lies in our unity.
+                     From guidance and mentorship to resources and encouragement, 
+                     we're committed to helping our team members grow and succeed.
 
                 </p>
                </div>
@@ -140,7 +146,10 @@
                 <div class="service-desc">
                 <h3>Celebrating Our Successes</h3>
                 <hr>
-                <p>We're proud of our team members' achievements, and we love to celebrate their successes! From recognizing individual accomplishments to cheering on our team at competitions, we believe in acknowledging and rewarding our team members' hard work and dedication.
+                <p>We're proud of our team members' achievements, 
+                    and we love to celebrate their successes! 
+                    From recognizing individual accomplishments to cheering on our team at competitions, 
+                    we are the best.
                 </p>
                 </div>
             </div>
@@ -157,6 +166,12 @@
             </div>
         </div>
 
+    </section>
+    <section id="vid">
+        <video width="60%" height="70%" autoplay loop muted controls>
+            <source src="White Arowwai Industries Web Designer Video.mp4" type="video/mp4">
+             
+        </video>
     </section>
 
 <!--testimonial-->
@@ -243,4 +258,13 @@
     </section>
 
 </body>
+
+<script>
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+
+</script>
+
 </html>

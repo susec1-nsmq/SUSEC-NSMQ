@@ -198,7 +198,7 @@ left: 5%;
 .feature h1{
     text-align: left;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 800;
     color: blue;
 }
 
@@ -296,7 +296,7 @@ background: #efefef;
 .service-desc{
     width: 80%;
     position: absolute;
-    bottom: 0;
+    bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -313,10 +313,11 @@ hr{
 
 .service-desc p{
     font-size: 14px;
+    letter-spacing: 0.2px;
 }
 
 .single-service:hover .service-desc{
-    bottom: 40%;
+    bottom: 10%;
     opacity:1;
 }
 
@@ -332,13 +333,22 @@ hr{
     }
     .service-desc p{
         font-size: 12px;
+        text-align: left;
     }
+
+    .service-desc h3{
+        font-size: 12px;
+        
+    }
+
     hr{
         margin: 5px auto;
     }
     .single-service:hover .service-desc{
          bottom: 25% !important;
     }
+
+    
 }
 
 /*--testimonial--*/
@@ -404,6 +414,14 @@ hr{
 .testimonial-col:active {
     transform: translateY(-7px);
     
+}
+
+#vid{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 770px){
@@ -524,6 +542,15 @@ hr{
         top: 25%;
 
     }
+}
+
+#preloader{
+    background: white url(loader.gif.gif) no-repeat center center;
+    height:100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    opacity: 1;
 }
 
 
